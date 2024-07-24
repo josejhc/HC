@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5%; 
+    box-sizing: border-box; 
+    justify-content: space-between; 
+    color: #fff;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    }
+.redes img{ 
+    padding: 0px 15px;
+}
+
+.redes{
+ display: flex;
+ flex-direction: row;   
+ align-items: center;
+}
+
+/* .footer img{
+    align-self: flex-start;
+    justify-self: flex-start;   
+} */

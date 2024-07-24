@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.caja{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: content-box;
+    /* background-color: aqua; */
+    width: 1250px;
+    position: absolute;
+    top: -100%;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 110px;
+
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lista li {
+    margin: 0 2rem;
+}
